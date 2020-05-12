@@ -22,3 +22,7 @@ let pairings = Object.entries(foodPairings);
 for (let [key, value] of pairings {
   console.log(`With ${key}, it is best to have ${value}`);
 }
+
+/*Object.keys(foodPairings).forEach((item, id) => {
+  console.log(`With ${item}, it is best to have ${foodPairings[item]}.`);
+});*/
