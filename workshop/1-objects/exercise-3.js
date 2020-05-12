@@ -55,4 +55,4 @@ const staffMembers = [
 // You will need both Array and Object syntax.
 let chuck = staffMembers[3];
 let javascript = chuck.skillLevels.javascript;
-console.log(javascript);
+console.log(`Chuck's JavaScript Level is ${javascript}.`);
