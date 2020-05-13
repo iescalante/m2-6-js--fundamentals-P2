@@ -3,17 +3,20 @@
 // In the very first exercise, you logged a top-10 list of foods:
 
 let mostPopularFood = [
-  'bean burritos',
-  'poke bowl',
-  'chicken sliders',
-  'pork baby back ribs',
-  'chicken burritos',
-  'chicken sandwich',
-  'cauliflower rice bowl',
-  'chicken and waffle sliders',
-  'parmesan chicken',
-  'buffalo-flavored cauliflower',
+  "bean burritos",
+  "poke bowl",
+  "chicken sliders",
+  "pork baby back ribs",
+  "chicken burritos",
+  "chicken sandwich",
+  "cauliflower rice bowl",
+  "chicken and waffle sliders",
+  "parmesan chicken",
+  "buffalo-flavored cauliflower",
 ];
+//first idea: push out last item every second until you reach the end;
+
+//second idea: reverse the order of items and log them every second;
 
 // Let's log them again, but this time with a proper "count-down". We should
 // Start at #10, and go down to #1.
